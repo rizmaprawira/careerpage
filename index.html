@@ -1,0 +1,612 @@
+<!--12822029 - Rizma Dwinanda Prawira-->
+<!--Credits are redacted below the last line-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+      <style>
+
+          #map {
+            height: 40vh;
+            width: 100%;
+          }
+      </style>
+    <!-- CSS -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <!-- FONTAWESOME -->
+
+    <title>About Rizma</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container flex-row">
+        <div class="header__logo">
+          <img src="assets/img/logo.png" alt="Rizzie" />
+        </div>
+        <nav>
+          <ul class="header__menu flex-row">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Technical Skills</a></li>
+            <li><a href="#projects">Achievements</a></li>
+            <li><a href="#team">Colleagues</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="right flex-center">
+          <a href="#contact" class="btn btn-secondary">Hire Me</a>
+          <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER -->
+
+    <!-- HERO -->
+    <section id="hero" class="container flex-row">
+      <div class="hero__content" data-aos="fade-right">
+        <h1 class="title">Work Together for A Better Future</h1>
+        <p class="text">
+          Hello and Welcome! My name is Rizma Prawira, currently studying meteorology at ITB, and I'm looking forward to having you. Get to know more about me in this page and let me know if you're interested to work together. Have a Pleasant Day!
+        </p>
+        <a href="#contact" class="btn btn-primary">Hire Me</a>
+      </div>
+      <div class="hero__img" data-aos="fade-left">
+        <img src="assets/img/hero.jpg" alt="Hero" width="500"/>
+      </div>
+      <div class="gradient"></div>
+    </section>
+    <!-- HERO -->
+
+    <!-- ABOUT -->
+    <section id="about" class="container flex-center flex-column">
+      <h5 class="section-subheading" data-aos="fade-up">A GLIMPSE OF MY LIFE</h5>
+      <h2 class="section-heading text-center" data-aos="fade-up">
+        GET TO KNOW ME
+      </h2>
+      <div class="features text-center">
+        <div class="feature" style="--color: #ff0000" data-aos="fade-up">
+          <div class="feature__icon">
+            <i class="fa-solid fa-smile"></i>
+          </div>
+          <h3 class="feature__title">Personal Life</h3>
+          <p class="feature__text">
+            In the realm of personal life, I am Rizma Prawira born on March 2004 in Bandung. Growing up, I cultivated
+            interests in doing programming and electronic tinkering, also finding joy in engaging in botanical
+            research. I enjoy studying and experimenting with different plant species and cultivation techniques to refine my
+            gardening skills and enhance my knowledge of plants as a hobby. Family plays a central role in my life, and I am fortunate to
+            reside with them in our home, feeling loved and safe. Their support and encouragement have been
+            invaluable in my journey.
+ 
+          </p>
+        </div>
+        <div
+          class="feature"
+          style="--color: #2d4dff"
+          data-aos="fade-up"
+          data-aos-delay="50"
+        >
+          <div class="feature__icon">
+            <i class="fa-regular fa-file-lines"></i>
+          </div>
+          <h3 class="feature__title">Student Life</h3>
+          <p class="feature__text">
+          Transitioning into academic pursuits, I embarked on a journey of learning at Bandung Institute of Technology. There, I
+          delved into earth science and am currently pursuing my degree in meteorology. The academic environment fostered my
+          curiosity and drive for knowledge, laying the foundation for my future endeavors. Along the way, I engaged in student
+          association HMME “Atmosphaira” and is part of Semi-Autonomous Board “Zephyrus”, enriching my educational experience.
+          </p>
+        </div>
+        <div
+          class="feature"
+          style="--color: #00e430 "
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="feature__icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3 class="feature__title">Work Life</h3>
+          <p class="feature__text">
+          As I navigate my professional journey, my background includes working as the coach of the Paskibra Team during my
+          high school years and my first two semester as a uni students and gaining valuable experience and skills for my future works,
+          While my career path is still unfolding, I am driven by a passion for meteorology, eager to make meaningful contributions and explore new
+          opportunities for growth and impact, such as doing research in BRIN, or making more weather prediction in BMKG.
+          </p>
+        </div>
+      </div>
+      <div class="about__details flex-center">
+        <div class="about__details-content" data-aos="fade-right">
+          <h1>More about me and my work life</h1>
+          <p>
+            If you are interested to know more about my professional work life, 
+            please click this button below as it will take you to my full resume.
+          </p>
+          <a href="assets/img/resume.png" class="btn btn-primary">Resume</a>
+        </div>
+        <div class="about__details-img" data-aos="fade-left">
+          <img src="assets/img/about.jpg" alt="About" />
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT -->
+
+    <!-- SERVICES -->
+    <section
+      id="services"
+      style="
+        background: url(assets/img/services-bg.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100% 80%;
+      "
+    >
+      <div class="container">
+        <h5 class="section-subheading" data-aos="fade-up">what work can i do</h5>
+        <h2 class="section-heading right" data-aos="fade-up">
+          These are the skill and service I can offer for future works in solving various problems together.
+        </h2>
+        <div class="services">
+          <div class="service" data-aos="fade-up" data-aos-delay="0">
+            <div class="service__icon">
+              <img src="assets/img/programming.png" alt="" />
+            </div>
+            <h3 class="service__title">Programming</h3>
+            <p class="service__text">
+              I have learned various programming language including Python, Fortran, and HTML.
+              I can also work with GRADs in terms of plotting meteorological information.
+              
+
+            </p>
+            <div class="arrow-icon">
+              <a href="https://drive.google.com/drive/folders/1IFRaZkIREx0xUbZVhh-gT12gB8mflpo6?usp=drive_link" class="clickable-arrow"> <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="service" data-aos="fade-up" data-aos-delay="50">
+            <div class="service__icon">
+              <img src="assets/img/writing.jpeg" alt="" />
+            </div>
+            <h3 class="service__title">Writing</h3>
+            <p class="service__text">
+              In the past couple of years I started to found my passion in writing, 
+              I have wrote several article, mini research paper, and have also contributed 
+              in writing a magazine called "NOTUS".
+            </p>
+            <div class="arrow-icon">
+              <a href="https://drive.google.com/drive/folders/1sGePhVLzs5ehFlhvM8BvcYPW2Tjqf796?usp=drive_link" class="clickable-arrow"> <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="service" data-aos="fade-up" data-aos-delay="100">
+            <div class="service__icon">
+              <img src="assets/img/prototyping.webp" alt="" />
+            </div>
+            <h3 class="service__title">Prototyping</h3>
+            <p class="service__text">
+              As I my journey continue, I started to get into working with micro controller 
+              especially arduino board and numerous sensor that can connect to it. I'm capable 
+              of creating a prototype of a project that I'm working on.
+
+            </p>
+            <div class="arrow-icon">
+              <a href="https://drive.google.com/drive/folders/1_kqHwmwrjr6X7C9GZ3LJCN0adGGOxVMf?usp=drive_link" class="clickable-arrow"> <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="service" data-aos="fade-up" data-aos-delay="150">
+            <div class="service__icon">
+              <img src="assets/img/data.png" alt="" />
+            </div>
+            <h3 class="service__title">Data Processing</h3>
+            <p class="service__text">
+              As a student who works closely with big weather data. I have gain the ability
+              to process data from any source with Excel and Matlab. 
+              I'm also able to create a data visualization with GRADs, Matlab, and Python.
+            </p>
+            <div class="arrow-icon">
+              <a href="https://drive.google.com/drive/folders/1pAuAu_58timhHcsYbTNGpdUVnJGNJKAj?usp=drive_link" class="clickable-arrow"> <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="service" data-aos="fade-up" data-aos-delay="200">
+            <div class="service__icon">
+              <img src="assets/img/translating.jpg" alt="" />
+            </div>
+            <h3 class="service__title">Translating</h3>
+            <p class="service__text">
+              While I am native speaker of Bahasa Indonesia, 
+              I am also fluent in English, I previously has taken a short course at Titik Nol,
+              and have gotten the ability to translate documents and/or speech 
+              from English to Bahasa Indonesia (vice versa).
+              
+            </p>
+            <div class="arrow-icon">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="service" data-aos="fade-up" data-aos-delay="250">
+            <div class="service__icon">
+              <img src="assets/img/project.jpg" alt="" />
+            </div>
+            <h3 class="service__title">Other Project(s)</h3>
+            <p class="service__text">
+              If any of the skills above aren't the one you're looking for,
+              I am looking forward to learn and apply new skill(s). 
+              Please do contact me for further discussion. 
+            </p>
+
+            <div class="arrow-icon">
+              <a href="#contact" class="clickable-arrow"> <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES -->
+
+    <!-- PROJECTS -->
+    <section
+      id="projects"
+      style="
+        background: url(assets/img/projects-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+      "
+    >
+      <div class="container">
+        <h5 class="section-subheading" data-aos="fade-up">MY JOURNEY SO FAR</h5>
+        <h2 class="section-heading" data-aos="fade-up">
+          Here are my most recent achievement that I'm very proud to share to you.
+        </h2>
+        <div class="projects">
+          <div class="project" data-aos="fade-right">
+            <div class="project__img">
+              <img src="assets/img/win1.jpg" alt="" />
+            </div>
+            <div class="project__content">
+              <h3 class="project__category">Engineering Design Fair</h3>
+              <h3 class="project__title">
+                Third Winner of the FITB Engineering Design Fair 2022
+              </h3>
+              <p class="project__text">
+                Designing a early home warning system that can detect a house fire, gas leakage,
+                and water leakage as a way to mitigate the risk of losing life. Made with various
+                sensors attached to a arduino board. The system is able to detect the presence of
+                fire, gas, and water and then send an alert to the user. Win the fair by vote from 
+                the audience.
+
+              </p>
+              <a href="https://www.canva.com/design/DAFkRwdKubs/6HhfQgb9caqWSdYD4ecHfQ/edit?utm_content=DAFkRwdKubs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn btn-secondary">See More</a>
+            </div>
+          </div>
+          <div class="project" data-aos="fade-left">
+            <div class="project__img">
+              <img src="assets/img/win2.jpg" alt="" />
+            </div>
+            <div class="project__content">
+              <h3 class="project__category">Drill and Marching Competition</h3>
+              <h3 class="project__title">
+                Third Runner-Up on LKBB held by Muhammadiyah University Bandung 2022
+              </h3>
+              <p class="project__text">
+                Guiding my paskibra team called Paskibra Faeyza Angkasa Senior High School to win the competition,
+                achieved with mainly regular and discipline training. I coach and train them with a 
+                guided marching and drilling technique, combined with a variation and formation to embrace their creativity
+
+              </p>
+              <a href="https://www.instagram.com/p/Ch1sdoHJlph/" class="btn btn-secondary">See More</a>
+            </div>
+          </div>
+          <div class="project" data-aos="fade-right">
+            <div class="project__img">
+              <img src="assets/img/win3.png" alt="" />
+            </div>
+            <div class="project__content">
+              <h3 class="project__category">Meteorological Competition Event</h3>
+              <h3 class="project__title">
+                Best Staff on Event Organizer Division 
+              </h3>
+              <p class="project__text">
+                I work with two amazing teammate and one extraordinary team leader in this Division,
+                I mainly take work as a contact person, connecting the participant to my team leader
+                forcing me to have a skill on communication. I also take work as a planner, mainly planning
+                the detailed time about the event, as well as being a time keeper on the day the event held.
+                Sometimes I also help my teammate do their work if needed.
+              </p>
+              <a href="https://www.instagram.com/mce_itb/" class="btn btn-secondary">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECTS -->
+
+    <!-- TEAM -->
+    <section id="team" class="container">
+      <h5 class="section-subheading text-center" data-aos="fade-up">
+        PEOPLE I'VE WORKED WITH
+      </h5>
+      <h2 class="section-heading text-center right left" data-aos="fade-up">
+        Extraordinary people with many skills in various aspects
+      </h2>
+      <div class="members">
+        <div class="member" data-aos="zoom-in">
+          <div class="member__img">
+            <img src="assets/img/testimonials.png" alt="" width=300"/>
+          </div>
+          <div class="member__content">
+            <h1>Trisa Valysa</h1>
+            <p>Geodesy and Geomatics Engineering Student - Mini Research Paper</p>
+          </div>
+        </div>
+        <div class="member" data-aos="zoom-in" data-aos-delay="50">
+          <div class="member__img">
+            <img src="assets/img/member-2.png" alt="" width="300" />
+          </div>
+          <div class="member__content">
+            <h1>Volintika </h1>
+            <p>National Taiwan Univerity Student - Fellow Coach</p>
+          </div>
+        </div>
+        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+          <div class="member__img">
+            <img src="assets/img/member-3.png" alt="" width="300" />
+          </div>
+          <div class="member__content">
+            <h1>Firmansyah</h1>
+            <p>Business and Management Student - Fellow Coach</p>
+          </div>
+        </div>
+        <div class="member" data-aos="zoom-in" data-aos-delay="`50">
+          <div class="member__img">
+            <img src="assets/img/member-4.jpg" alt="" width="300"/>
+          </div>
+          <div class="member__content">
+            <h1>Rinaya Azzahra</h1>
+            <p>Geodesy and Geomatics Engineering Student - Home Warning System</p>
+          </div>
+        </div>
+      </div>
+      <div class="gradient-2"></div>
+    </section>
+    <!-- TEAM -->
+
+    <!-- TESTIMONIALS -->
+    <section
+      id="testimonials"
+      style="
+        background: url(assets/img/testimonials-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 100%;
+      "
+    >
+      <div class="container flex-row" data-aos="zoom-out">
+        <div class="testimonials-wrapper">
+          <p class="quotes"><i class="fas fa-quote-left"></i></p>
+          <p class="section-subheading">testimonial</p>
+          <div class="testimonials">
+            <div class="testimonial">
+              <h1 class="testimonial__title">Such A Good Team Worker!</h1>
+              <p class="testimonial__text">
+              Rizma is a good teamworker; she is fast at identifying the core problem and coming up with a solution. She is very
+              dependable in carrying out her tasks. She is willing to learn if there's something she doesn't know or understand. She
+              can be a good leader; she asks for the opinions of her teammates and assigns them tasks they seem capable of. She also
+              sticks to the end to ensure that assignments are completed without any problems.
+              </p>
+              <div class="testimonial__author">
+                <h3>Trisa Valysa</h3>
+                <p>Geodesy and Geomatics Engineering Student</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials-navigation">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="testimonials__img">
+          <img src="assets/img/testimonials.jpg" alt="" />
+        </div>
+      </div>
+
+    </section>
+    <!-- TESTIMONIALS -->
+
+    <!-- CONTACT -->
+    <section
+      id="contact"
+      style="
+        background: url(assets/img/contact-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+      "
+    >
+      <div class="container">
+        <h5 class="section-subheading text-center" data-aos="fade-up">
+          HIRE ME
+        </h5>
+        <h2 class="section-heading text-center right left" data-aos="fade-up">
+          FILL THIS FORM TO WORK TOGETHER
+        </h2>
+        <div class="contact">
+          <form action="thankyou.php" class="contact-form" data-aos="fade-right" method="post">
+            <h1>Write Me a Message About The Work</h1>
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+            <input type="email" id="email" name="email" placeholder="Your Email" required />
+            <input type="text" id="subject" name="subject" placeholder="Subject" required />
+            <textarea rows="5" id="message" name="message" required>Your Message</textarea>
+
+            <button class="btn btn-primary">Send Message</button>
+          </form>
+          <div class="contact-details" data-aos="fade-left">
+            <p class="text">
+            Contact me and stay connected for future work together! I'm up for anything fun too!
+            </p>
+            <div class="details">
+              <div class="detail">
+                <div class="detail__icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="detail__content">
+                  <h3>Phone/WhatsApp</h3>
+                  <p><a href="https://api.whatsapp.com/send/?phone=6289609519778&text&type=phone_number&app_absent=0">+62896-0951-9778</a></p>
+                </div>
+              </div>
+              <div class="detail">
+                <div class="detail__icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="detail__content">
+                  <h3>Email</h3>
+                  <p><a href="mailto:rizmaprawira17@gmail.com">rizmaprawira17@gmail.com</a></p>
+                </div>
+              </div>
+              <div class="detail">
+                <div class="detail__icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="detail__content">
+                  <h3>Address
+                  <p><a href="https://www.google.com/maps/place/Bandung+Institute+of+Technology/@-6.89148,107.6080788,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68e65767c9b183:0x2478e3dcdce37961!8m2!3d-6.89148!4d107.6106591!16s%2Fm%2F06wc97_?entry=ttu">Institut Teknologi Bandung, Jalan Ganesa No. 10</a></p>
+                <div id="map"></div>
+                </h3>
+                </div>
+                <!-- Leaflet JS -->
+                <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+                <script>
+                // Map initialization
+                var map = L.map('map').setView([-6.8901284290218925, 107.60974287986755], 15);
+                // Add OpenStreetMap tile layer
+                var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                  minZoom: 12,
+                  maxZoom: 16,
+                 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                }).addTo(map);
+
+                // Add marker and popup
+                var marker = L.marker([-6.8901284290218925, 107.60974287986755]).addTo(map);
+                 marker.bindPopup("<h1>Rizma's Work Place</h1>").openPopup();
+
+                // Click event
+                function onMapClick(e) {
+                   alert("You clicked the map at " + e.latlng);
+                }
+                map.on('click', onMapClick);
+      </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gradient-2"></div>
+    </section>
+    <!-- CONTACT -->
+
+    <!-- FOOTER -->
+    <footer data-aos="fade-down">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__details">
+            <div class="footer__logo">
+              <img src="assets/img/logo.png" alt="" />
+            </div>
+            <p class="footer__text">
+              Let me know you're here by writing your email here, you will also recieve a news letter, feel free to unsubscribe anytime.
+            </p>
+            <div class="footer__newsletter">
+            <!--intentionally no action, action only on contact me-->  
+              <form action="#" class="footer__newsletter-form" method="post">
+                <input type="email" name="email" placeholder="Submit email" required />
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+              </form>
+            </div>
+          </div>
+          <div class="footer__menu">
+            <h3 class="footer__menu-title">Quick Links</h3>
+            <ul class="footer__menu-list">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#service">Technical Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#testimonial">Testimonials</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__menu">
+            <h3 class="footer__menu-title">Technical Skills</h3>
+            <ul class="footer__menu-list">
+              <li><a href="https://drive.google.com/drive/folders/1IFRaZkIREx0xUbZVhh-gT12gB8mflpo6?usp=drive_link">Programming</a></li>
+              <li><a href="https://drive.google.com/drive/folders/1sGePhVLzs5ehFlhvM8BvcYPW2Tjqf796?usp=drive_link">Writing</a></li>
+              <li><a href="https://drive.google.com/drive/folders/1_kqHwmwrjr6X7C9GZ3LJCN0adGGOxVMf?usp=drive_link">Prototyping</a></li>
+              <li><a href="https://drive.google.com/drive/folders/1pAuAu_58timhHcsYbTNGpdUVnJGNJKAj?usp=drive_link">Data Processing</li></a>
+
+            </ul>
+          </div>
+          <div class="footer__menu">
+            <h3 class="footer__menu-title">Social</h3>
+            <ul class="footer__menu-list">
+              <li><a href="https://www.facebook.com/rizmaprawira">Facebook</a></li>
+              <li><a href="https://www.youtube.com/@rizmaprawira">Youtube</a></li>
+              <li><a href="https://www.instagram.com/rizmaprawira">Instagram</a></li>
+              <li><a href="https://www.linkedin.com/in/rizmaprawira/">Linkedin</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-icons">
+            <p>Follow us</p>
+            <a href="https://www.facebook.com/rizmaprawira" class="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/@rizmaprawira" class="twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/rizmaprawira" class="instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rizmaprawira/" class="linkedin">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <p>&copy; 2024 Rizma Prawira. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER -->
+    <!-- ADDITIONAL MAP -->
+      
+    <!--ADDITIONAL MAP-->
+
+
+    <!-- FONTAWESOME -->
+    <script src="assets/js/fontawesome.min.js"></script>
+    <!-- FONTAWESOME -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- SCRIPTS -->
+    <script src="assets/js/script.js"></script>
+    <!-- SCRIPTS -->
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
+
+<!--Credits : I learned most of this from Open Source Coding Youtube Channel, this code are also a modification from one of the tutorials. -->
